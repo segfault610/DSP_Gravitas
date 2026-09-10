@@ -1,0 +1,10 @@
+08:21:14 **** Incremental Build of configuration Debug for project 3_Plottting_Signals_with_SerialPlotter ****
+make -j8 all 
+arm-none-eabi-size   3_Plottting_Signals_with_SerialPlotter.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24208	   1680	   1592	  27480	   6b58	3_Plottting_Signals_with_SerialPlotter.elf
+Finished building: default.size.stdout
+ 
+
+08:21:14 Build Finished. 0 errors, 0 warnings. (took 586ms)
+

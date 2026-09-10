@@ -1,0 +1,7 @@
+main.c:31:5:main	16	static
+main.c:96:16:read_fifo	24	static
+main.c:120:13:clear_data_buffer	16	static
+main.c:127:13:tim2_callback	8	static
+main.c:144:6:TIM2_IRQHandler	8	static
+main.c:155:13:pseudo_dly	24	static
+main.c:160:13:fpu_enable	4	static

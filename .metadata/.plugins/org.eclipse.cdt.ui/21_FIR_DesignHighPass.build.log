@@ -1,0 +1,10 @@
+08:57:04 **** Incremental Build of configuration Debug for project 21_FIR_DesignHighPass ****
+make -j8 all 
+arm-none-eabi-size   21_FIR_DesignHighPass.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24672	   4884	  11124	  40680	   9ee8	21_FIR_DesignHighPass.elf
+Finished building: default.size.stdout
+ 
+
+08:57:04 Build Finished. 0 errors, 0 warnings. (took 337ms)
+

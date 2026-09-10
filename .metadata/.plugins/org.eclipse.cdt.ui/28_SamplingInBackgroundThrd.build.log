@@ -1,0 +1,10 @@
+08:37:03 **** Incremental Build of configuration Debug for project 28_SamplingInBackgroundThrd ****
+make -j8 all 
+arm-none-eabi-size   28_SamplingInBackgroundThrd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25248	    476	   5292	  31016	   7928	28_SamplingInBackgroundThrd.elf
+Finished building: default.size.stdout
+ 
+
+08:37:03 Build Finished. 0 errors, 0 warnings. (took 425ms)
+

@@ -1,0 +1,10 @@
+09:24:26 **** Incremental Build of configuration Debug for project 30_SensorDataBlockProcessing-CMSIS-DSP_Convo ****
+make -j8 all 
+arm-none-eabi-size   30_SensorDataBlockProcessing-CMSIS-DSP_Convo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26568	    600	   5328	  32496	   7ef0	30_SensorDataBlockProcessing-CMSIS-DSP_Convo.elf
+Finished building: default.size.stdout
+ 
+
+09:24:27 Build Finished. 0 errors, 0 warnings. (took 428ms)
+

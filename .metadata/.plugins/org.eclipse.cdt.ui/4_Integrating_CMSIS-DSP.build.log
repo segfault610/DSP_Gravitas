@@ -1,0 +1,19 @@
+09:00:03 **** Incremental Build of configuration Debug for project 4_Integrating_CMSIS-DSP ****
+make -j8 all 
+arm-none-eabi-gcc -o "4_Integrating_CMSIS-DSP.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"C:\Users\Gaming Laptop RTX\Documents\DSP_On_Arm_Processors\4_Integrating_CMSIS-DSP\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="4_Integrating_CMSIS-DSP.map" -Wl,--gc-sections -static -Wl,--start-group -larm_cortexM4lf_math -Wl,--end-group -L"C:\Users\Gaming Laptop RTX\Documents\DSP_On_Arm_Processors\4_Integrating_CMSIS-DSP\chip_headers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 4_Integrating_CMSIS-DSP.elf
+ 
+arm-none-eabi-objdump -h -S  4_Integrating_CMSIS-DSP.elf  > "4_Integrating_CMSIS-DSP.list"
+arm-none-eabi-objcopy  -O binary  4_Integrating_CMSIS-DSP.elf  "4_Integrating_CMSIS-DSP.bin"
+arm-none-eabi-size   4_Integrating_CMSIS-DSP.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24208	   1680	   1592	  27480	   6b58	4_Integrating_CMSIS-DSP.elf
+Finished building: default.size.stdout
+ 
+Finished building: 4_Integrating_CMSIS-DSP.bin
+ 
+Finished building: 4_Integrating_CMSIS-DSP.list
+ 
+
+09:00:04 Build Finished. 0 errors, 0 warnings. (took 710ms)
+

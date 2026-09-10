@@ -1,0 +1,10 @@
+15:57:58 **** Incremental Build of configuration Debug for project 8_Signal_Std ****
+make -j8 all 
+arm-none-eabi-size   8_Signal_Std.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27276	   1760	   1608	  30644	   77b4	8_Signal_Std.elf
+Finished building: default.size.stdout
+ 
+
+15:57:58 Build Finished. 0 errors, 0 warnings. (took 331ms)
+

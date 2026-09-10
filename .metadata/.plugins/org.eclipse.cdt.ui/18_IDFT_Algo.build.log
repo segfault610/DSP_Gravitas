@@ -1,0 +1,35 @@
+11:48:11 **** Incremental Build of configuration Debug for project 18_IDFT_Algo ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32F411xE -DARM_MATH_CM4 -D__FPU_PRESENT -c -I../Inc -I"C:/Users/Gaming Laptop RTX/Documents/DSP_On_Arm_Processors/18_IDFT_Algo/chip_headers/CMSIS/Include" -I"C:/Users/Gaming Laptop RTX/Documents/DSP_On_Arm_Processors/18_IDFT_Algo/chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/Gaming Laptop RTX/Documents/DSP_On_Arm_Processors/18_IDFT_Algo/chip_headers/CMSIS/DSP/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+In file included from C:/Users/Gaming Laptop RTX/Documents/DSP_On_Arm_Processors/18_IDFT_Algo/chip_headers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h:155,
+                 from ../Src/main.c:2:
+C:/Users/Gaming Laptop RTX/Documents/DSP_On_Arm_Processors/18_IDFT_Algo/chip_headers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h:52: warning: "__FPU_PRESENT" redefined
+   52 | #define __FPU_PRESENT             1U       /*!< FPU present                                   */
+      | 
+<command-line>: note: this is the location of the previous definition
+../Src/main.c:253:13: warning: 'serial_plot_output_sig' defined but not used [-Wunused-function]
+  253 | static void serial_plot_output_sig(void)
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:244:13: warning: 'serial_plot_input_sig' defined but not used [-Wunused-function]
+  244 | static void serial_plot_input_sig(void)
+      |             ^~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:233:13: warning: 'plot_input_signal' defined but not used [-Wunused-function]
+  233 | static void plot_input_signal(void)
+      |             ^~~~~~~~~~~~~~~~~
+../Src/main.c:223:13: warning: 'serial_plot_impulse_response' defined but not used [-Wunused-function]
+  223 | static void serial_plot_impulse_response(void)
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:213:13: warning: 'plot_impulse_response' defined but not used [-Wunused-function]
+  213 | static void plot_impulse_response(void)
+      |             ^~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "18_IDFT_Algo.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"C:\Users\Gaming Laptop RTX\Documents\DSP_On_Arm_Processors\18_IDFT_Algo\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="18_IDFT_Algo.map" -Wl,--gc-sections -static -Wl,--start-group -larm_cortexM4lf_math -Wl,--end-group -L"C:\Users\Gaming Laptop RTX\Documents\DSP_On_Arm_Processors\18_IDFT_Algo\chip_headers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 18_IDFT_Algo.elf
+ 
+arm-none-eabi-size   18_IDFT_Algo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30348	   3036	   7996	  41380	   a1a4	18_IDFT_Algo.elf
+Finished building: default.size.stdout
+ 
+
+11:48:12 Build Finished. 0 errors, 6 warnings. (took 1s.11ms)
+

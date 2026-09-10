@@ -1,0 +1,10 @@
+16:34:53 **** Incremental Build of configuration Debug for project 14_DynamicPerfornanceOfCMSIS-DSP ****
+make -j8 all 
+arm-none-eabi-size   14_DynamicPerfornanceOfCMSIS-DSP.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26032	   1872	   3016	  30920	   78c8	14_DynamicPerfornanceOfCMSIS-DSP.elf
+Finished building: default.size.stdout
+ 
+
+16:34:53 Build Finished. 0 errors, 0 warnings. (took 322ms)
+

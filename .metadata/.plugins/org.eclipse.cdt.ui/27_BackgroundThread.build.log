@@ -1,0 +1,13 @@
+12:05:50 **** Incremental Build of configuration Debug for project 27_BackgroundThread ****
+make -j8 all 
+arm-none-eabi-gcc -o "27_BackgroundThread.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"C:\Users\Gaming Laptop RTX\Documents\DSP_On_Arm_Processors\27_BackgroundThread\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="27_BackgroundThread.map" -Wl,--gc-sections -static -Wl,--start-group -larm_cortexM4lf_math -Wl,--end-group -L"C:\Users\Gaming Laptop RTX\Documents\DSP_On_Arm_Processors\27_BackgroundThread\chip_headers\CMSIS\Lib\GCC" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 27_BackgroundThread.elf
+ 
+arm-none-eabi-size   27_BackgroundThread.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24768	    476	   2804	  28048	   6d90	27_BackgroundThread.elf
+Finished building: default.size.stdout
+ 
+
+12:05:52 Build Finished. 0 errors, 0 warnings. (took 1s.498ms)
+

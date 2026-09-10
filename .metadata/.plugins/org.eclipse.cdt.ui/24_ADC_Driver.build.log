@@ -1,0 +1,10 @@
+10:11:54 **** Incremental Build of configuration Debug for project 24_ADC_Driver ****
+make -j8 all 
+arm-none-eabi-size   24_ADC_Driver.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24512	    476	   2884	  27872	   6ce0	24_ADC_Driver.elf
+Finished building: default.size.stdout
+ 
+
+10:11:55 Build Finished. 0 errors, 0 warnings. (took 460ms)
+

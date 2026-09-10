@@ -1,0 +1,2 @@
+fir_filter.c:4:6:fir_filter_init	24	static
+fir_filter.c:28:11:fir_filter_update	24	static

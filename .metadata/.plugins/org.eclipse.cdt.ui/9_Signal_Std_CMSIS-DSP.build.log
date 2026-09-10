@@ -1,0 +1,10 @@
+18:36:50 **** Incremental Build of configuration Debug for project 9_Signal_Std_CMSIS-DSP ****
+make -j8 all 
+arm-none-eabi-size   9_Signal_Std_CMSIS-DSP.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27600	   1760	   1616	  30976	   7900	9_Signal_Std_CMSIS-DSP.elf
+Finished building: default.size.stdout
+ 
+
+18:36:50 Build Finished. 0 errors, 0 warnings. (took 323ms)
+
